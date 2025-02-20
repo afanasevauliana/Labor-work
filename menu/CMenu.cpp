@@ -35,5 +35,6 @@ int CMenu::runCommand() {
     print();
     std::cout << "\n   Select >> ";
     std::cin >> select;
-    return items[select - 1].run();
+    if (select>0 & select<=count) return items[select - 1].run();
+    else return 0;
 }
