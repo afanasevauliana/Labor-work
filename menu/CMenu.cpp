@@ -28,7 +28,7 @@ void CMenu::print() {
         items[i].print();
         std::cout << std::endl;
     }
-    std::cout << "0. exit" << std::endl;
+    std::cout << "0. Exit" << std::endl;
 }
 
 int CMenu::runCommand() {
