@@ -1,5 +1,8 @@
 #include "menu/CMenu.h"
 #include "menu/CMenuItem.h"
+#include "Models/Class1/User.h"
+#include "Models/Class2/Employee.h"
+#include "Models/Class3/Client.h"
 #include <cmath>
 #include <limits>
 using namespace std;
@@ -22,7 +25,7 @@ int f2() {
     cout << "*     *\n";
     cout << "*******\n\n";
     return 2;
-}
+} 
 
 #pragma endregion
 
