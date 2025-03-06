@@ -8,10 +8,10 @@ namespace AK {
 	class Client :public User {
 	public:
 		Client();
-		Client(string name, string surname, int age, string login, string password, string deposit);
+		Client(string name, string surname, int age, string login, string password, string service);
 		void printPublicData();
 		void printPersonalData();
 	private:
-		string m_deposit;
+		string m_service;
 	};
 }
