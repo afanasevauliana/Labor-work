@@ -3,10 +3,10 @@
 #include "..//Class1/User.h"
 using namespace std;
 
-class Employee : public User {
+class Photographer : public User {
 public:
-    Employee();
-    Employee(string name, string surname, unsigned int age, string login, string password, string jobTitle);
+    Photographer();
+    Photographer(string name, string surname, unsigned int age, string login, string password, string jobTitle);
     void printPublicData();
     void printPersonalData();
 private:

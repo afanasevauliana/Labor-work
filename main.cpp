@@ -1,7 +1,7 @@
 #include "menu/CMenu.h"
 #include "menu/CMenuItem.h"
 #include "Models/Class1/User.h"
-#include "Models/Class2/Employee.h"
+#include "Models/Class2/Photographer.h"
 #include "Models/Class3/Client.h"
 #include <cmath>
 #include <limits>
