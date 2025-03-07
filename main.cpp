@@ -27,6 +27,7 @@ int f2() {
     return 2;
 } 
 
+
 #pragma endregion
 
 const int ITEMS_NUMBER = 2;
