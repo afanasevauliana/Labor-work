@@ -1,4 +1,4 @@
-#include "Employee.h"
+#include "Photographer.h"
 #include "C:/Users/User/Desktop/git/Labor-work/Models/Class1/User.h"
 #include <iostream>
 
