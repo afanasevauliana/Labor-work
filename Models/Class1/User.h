@@ -4,6 +4,7 @@ using namespace std;
 class User {
 public:
     User(string name,string surname,unsigned int age,string login,string password);
+    User();
     void printPublicData();
     void printPersonalData();
     string m_name;
