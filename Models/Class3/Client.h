@@ -4,14 +4,12 @@
 #include<string>
 using namespace std;
 
-namespace AK {
-	class Client :public User {
-	public:
-		Client();
-		Client(string name, string surname, int age, string login, string password, string service);
-		void printPublicData();
-		void printPersonalData();
-	private:
-		string m_service;
-	};
-}
+class Client :public User {
+public:
+	Client();
+	Client(string name, string surname, int age, string login, string password, string service);
+	void printPublicData();
+	void printPersonalData();
+private:
+	string m_service;
+};
