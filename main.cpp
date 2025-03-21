@@ -29,18 +29,11 @@ int f2() {
 
 int getEmployee() {
 	Photographer Daniil("Afanaseva", "Yuliana", 18, "yuliana0402", "1234", "Cleaner");
-	//Daniil.printPublicData();
-	//Daniil.printPersonalData();
 	cout << "\n";
 	return 3;
 }
 
 int getClient() {
-	Service Unlimited("Infinity is not the limit", "Daniil", 1000000, 10);
-	Client Anton("Daniil", "Goryachy", 19, "daniil0403", "safepassword123", "Infinity is not the limit");
-	/*Unlimited.printData();
-	Anton.printPublicData();
-	Anton.printPersonalData();*/
 	cout << "\n";
 	return 4;
 }
