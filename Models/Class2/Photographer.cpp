@@ -1,5 +1,6 @@
 #include "Photographer.h"
-#include "C:/Users/User/Desktop/git/Labor-work/Models/Class1/User.h"
+//#include "C:/Users/User/Desktop/git/Labor-work/Models/Class1/User.h"
+#include "..\Class1\User.h"
 #include <iostream>
 
 Photographer::Photographer(string name, string surname, unsigned int age, string login, string password, string jobTitle) : User(name, surname, age, login, password), m_jobTitle(jobTitle) {}
