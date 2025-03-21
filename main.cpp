@@ -27,14 +27,32 @@ int f2() {
     return 2;
 } 
 
+int getEmployee() {
+	Photographer Daniil("Afanaseva", "Yuliana", 18, "yuliana0402", "1234", "Cleaner");
+	//Daniil.printPublicData();
+	//Daniil.printPersonalData();
+	cout << "\n";
+	return 3;
+}
+
+int getClient() {
+	Service Unlimited("Infinity is not the limit", "Daniil", 1000000, 10);
+	Client Anton("Daniil", "Goryachy", 19, "daniil0403", "safepassword123", "Infinity is not the limit");
+	/*Unlimited.printData();
+	Anton.printPublicData();
+	Anton.printPersonalData();*/
+	cout << "\n";
+	return 4;
+}
+
 
 #pragma endregion
 
-const int ITEMS_NUMBER = 2;
+const int ITEMS_NUMBER = 4;
 
 
 int main() {
-    CMenuItem items[ITEMS_NUMBER] {CMenuItem{"Root of 25", f1}, CMenuItem{"Print house", f2}};
+    CMenuItem items[ITEMS_NUMBER] {CMenuItem{"Root of 25", f1}, CMenuItem{"Print house", f2}, CMenuItem{"getEmployee", getEmployee}, CMenuItem{"getClient", getClient}};
     CMenu menu("My console menu", items, ITEMS_NUMBER);
     while (menu.runCommand()) {};
 
